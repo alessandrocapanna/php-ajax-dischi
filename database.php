@@ -39,7 +39,7 @@
         ]
     ];
 
+    // da togliere se si usa index.php perche fa restituire JSON
     header('Content-Type: application/json');
-
     echo json_encode($database);
 ?>

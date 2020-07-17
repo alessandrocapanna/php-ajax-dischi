@@ -9,21 +9,25 @@
     <header>
       <div class="container">
         <img src="img/logo.jpeg" alt="logo">
-        <input type="text" name="" value="" placeholder="inserisci nome artista">
-        <button type="button" name="button">cerca</button>
+        <select class="autori" name="autori">
+        </select>
       </div>
     </header>
 
     <main>
       <div class="container">
-
       </div>
     </main>
 
+    <?php // NOTE: template option?>
+    <script id="option-template" type="text/x-handlebars-template">
+      <option value="{{author}}">{{author}}</option>
+    </script>
 
+    <?php // NOTE: template brano ?>
     <script id="brano-template" type="text/x-handlebars-template">
       <div class="brano">
-        <img src="{{foto}}" alt="poster">
+        <img src=" {{poster}} " alt="poster">
         <h2>{{title}}</h2>
         <p>{{author}}</p>
         <p>{{year}}</p>
