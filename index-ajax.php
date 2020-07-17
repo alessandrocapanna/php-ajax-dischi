@@ -20,11 +20,11 @@
       </div>
     </main>
 
-    
+
     <script id="brano-template" type="text/x-handlebars-template">
       <div class="brano">
         <img src="{{foto}}" alt="poster">
-        <h2>{{titile}}</h2>
+        <h2>{{title}}</h2>
         <p>{{author}}</p>
         <p>{{year}}</p>
       </div>
