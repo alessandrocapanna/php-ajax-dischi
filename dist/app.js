@@ -16099,7 +16099,7 @@ $(document).ready(function () {
 
   function stampaBrani() {
     $.ajax({
-      url: 'http://localhost:8888/php-ajax-dischi/database.php',
+      url: 'http://localhost:8888/php-ajax-dischi/server.php',
       method: 'GET',
       data: {},
       success: function success(arrayBrani) {
@@ -16128,7 +16128,7 @@ $(document).ready(function () {
 
   function scegliAutore() {
     $.ajax({
-      url: 'http://localhost:8888/php-ajax-dischi/database.php',
+      url: 'http://localhost:8888/php-ajax-dischi/server.php',
       method: 'GET',
       data: {},
       success: function success(arrayBrani) {
@@ -16153,7 +16153,7 @@ $(document).ready(function () {
 
   function stampaAutore(autoreDaStampare) {
     $.ajax({
-      url: 'http://localhost:8888/php-ajax-dischi/database.php',
+      url: 'http://localhost:8888/php-ajax-dischi/server.php',
       method: 'GET',
       data: {},
       success: function success(arrayBrani) {

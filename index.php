@@ -11,8 +11,11 @@
     <header>
       <div class="container">
         <img src="img/logo.jpeg" alt="logo">
-        <input type="text" name="" value="" placeholder="inserisci nome artista">
-        <button type="button" name="button">cerca</button>
+        <select class="autori" name="">
+          <?php foreach ($database as $brano) { ?>
+            <option value="<?php echo $brano['author']; ?> "> <?php echo $brano['author']; ?> </option>
+          <?php } ?>
+        </select>
       </div>
     </header>
 
@@ -29,8 +32,6 @@
       </div>
     </main>
 
-    <script type="text/javascript" src="dist/app.js">
-
-    </script>
+    
   </body>
 </html>
